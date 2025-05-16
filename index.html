@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário IMC</title>
+</head>
+<body>
+    <main>
+        <h1>Calculo IMC</h1>
+        <form action="calculo_imc.php" method="post">
+            <!--post manda os dados para um pacote de redes-->
+            <label for="peso">Peso (KG)</label>
+            <input type="number" step="0.01" name="peso" id="peso" required>
+
+            <label for="altura">Altura (M)</label>
+            <input type="number" step="0.01" name="altura" id="altura" required>
+
+            <button type="submit">Calcular_IMC</button>
+        </form>
+    </main>
+</body>
+</html>

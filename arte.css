@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 46, 46);
+}
+
+form{
+    flex-direction: column;
+    display: flex;
+}
+
+main{
+    flex-direction: column;
+    display: flex;
+}
+
+h1, label{
+    margin-top: 10px;
+    color: white;
+}
+
+input, button{
+    padding: 8px;
+    border-radius: 20px;
+}
+
+button{
+    margin-top: 10px;
+}
